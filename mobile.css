@@ -5,6 +5,9 @@
   justify-items: center;
   text-align: center;
 }
+#main{
+  height: 70vh;
+}
 .networks{
   display: none;
 }
