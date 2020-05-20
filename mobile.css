@@ -25,7 +25,7 @@
   text-align: center;
 }
 @media(max-width: 600px){
-  #main{
+  .content{
   height: 70vh;
 }
   .container-grid{
@@ -61,5 +61,16 @@
   }
   .foot{
     grid-column: 1;
+  }
+}
+@media (max-width: 440px){
+  .content{
+    height: 90vh;
+  }
+  .meta{
+    flex-direction: column;
+  }
+  .meta .category{
+    margin-top: 1rem;
   }
 }
